@@ -18,6 +18,9 @@ module "az-log-analytics" {
   #az_la_ws_sku = "PerGB2018"
   az_la_ws_retention_in_days = 180
 
+  # use this if you are creating a resource group first using RG module
+  #depends_on = [module.az-resource-group]
+
   az_tags = {
     Environment   = "Development"
     CostCenter    = "Department"
