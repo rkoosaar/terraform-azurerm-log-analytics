@@ -32,13 +32,13 @@ module "az-log-analytics" {
 
 | Name | Version |
 | --- | --- |
-| terraform | >= 0.13 |
+| terraform | >= 1.0.0 |
 
 ## Providers
 
 | Name | Version |
 | --- | --- |
-| azurerm | >= 2.35.0 |
+| azurerm | >= 2.62.1 |
 
 ## Inputs
 
@@ -74,7 +74,7 @@ Please use the [issue tracker](https://github.com/rkoosaar/terraform-azurerm-log
 
 ## Copyrights
 
-Copyright © 2020 Raiko Koosaar
+Copyright © 2021 Raiko Koosaar
 
 ### Contributors
 
